@@ -1,5 +1,5 @@
 <% if flash[:notice] %>
-  <p><%= flash[:notice] %></p>
+  <p class="notice"><%= flash[:notice] %></p>
 <% end %>
 
 <h1>Books</h1>
@@ -27,7 +27,7 @@
 </table>
 
 
-<h2>New book</h2>
+<h2 class="index-h2">New book</h2>
 
 <% if @book.errors.any? %>
   <p>errors</p>
